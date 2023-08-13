@@ -1,1 +1,52 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore IDE or text editor specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore virtual environment
 venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore secret and sensitive information
+*.env
+*.env.*
+*.secret
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore compiled files
+*.dll
+*.exe
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore static files (if you're using a CDN for serving static assets)
+static/
+
+# Ignore media uploads (user-generated content)
+media/
+
+# Ignore backup and temporary files
+*~
+*.swp
+
+# Ignore package management files
+*.lock
